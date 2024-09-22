@@ -31,7 +31,6 @@ export async function copyToClipboardWithMeta(value: string, event?: Event) {
 export function CopyButton({
   value,
   className,
-  src,
   variant = "ghost",
   event,
   ...props
@@ -83,8 +82,7 @@ interface CopyWithClassNamesProps extends DropdownMenuTriggerProps {
 export function CopyWithClassNames({
   value,
   classNames,
-  className,
-  ...props
+  className
 }: CopyWithClassNamesProps) {
   const [hasCopied, setHasCopied] = React.useState(false)
 
@@ -136,8 +134,7 @@ interface CopyNpmCommandButtonProps extends DropdownMenuTriggerProps {
 
 export function CopyNpmCommandButton({
   commands,
-  className,
-  ...props
+  className
 }: CopyNpmCommandButtonProps) {
   const [hasCopied, setHasCopied] = React.useState(false)
 
