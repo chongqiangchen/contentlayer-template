@@ -62,17 +62,17 @@ export const docsConfig: DocsConfig = {
       items: [
         {
           title: "01",
-          href: "/docs/components/accordion",
+          href: "/docs/accordion",
           items: [],
         },
         {
           title: "02",
-          href: "/docs/components/alert",
+          href: "/docs/alert",
           items: [],
         },
         {
           title: "03",
-          href: "/docs/components/alert-dialog",
+          href: "/docs/alert-dialog",
           items: [],
           label: "New",
         }
@@ -83,17 +83,17 @@ export const docsConfig: DocsConfig = {
       items: [
         {
           title: "01",
-          href: "/docs/components/accordion",
+          href: "/docs/accordion",
           items: [],
         },
         {
           title: "02",
-          href: "/docs/components/alert",
+          href: "/docs/alert",
           items: [],
         },
         {
           title: "03",
-          href: "/docs/components/alert-dialog",
+          href: "/docs/alert-dialog",
           items: [],
           label: "New",
         }
