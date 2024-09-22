@@ -93,7 +93,7 @@ export default makeSource({
             }
           },
           onVisitHighlightedLine(node) {
-            node.properties.className.push("line--highlighted")
+            node.properties.className && node.properties.className.push("line--highlighted")
           },
           onVisitHighlightedWord(node) {
             node.properties.className = ["word--highlighted"]

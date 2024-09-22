@@ -228,7 +228,7 @@ var contentlayer_config_default = makeSource({
             }
           },
           onVisitHighlightedLine(node) {
-            node.properties.className.push("line--highlighted");
+            node.properties.className && node.properties.className.push("line--highlighted");
           },
           onVisitHighlightedWord(node) {
             node.properties.className = ["word--highlighted"];
@@ -275,4 +275,4 @@ export {
   Doc,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-T4H3J5JL.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-4L3LYC3G.mjs.map
