@@ -1,0 +1,27 @@
+{
+  "cacheItemsMap": {
+    "docs/index.mdx": {
+      "document": {
+        "title": "Click me!",
+        "body": {
+          "raw": "\nBlog posts have their own pages. The content source is a markdown file, parsed to HTML by Contentlayer.\n",
+          "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),C=(t,e)=>{for(var n in e)r(t,n,{get:e[n],enumerable:!0})},a=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of d(e))!h.call(t,o)&&o!==n&&r(t,o,{get:()=>e[o],enumerable:!(s=x(e,o))||s.enumerable});return t};var M=(t,e,n)=>(n=t!=null?u(f(t)):{},a(e||!t||!t.__esModule?r(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>a(r({},\"__esModule\",{value:!0}),t);var m=_((k,i)=>{i.exports=_jsx_runtime});var y={};C(y,{default:()=>l,frontmatter:()=>w});var c=M(m()),w={title:\"Click me!\"};function p(t){let e={p:\"p\",...t.components};return(0,c.jsx)(e.p,{children:\"Blog posts have their own pages. The content source is a markdown file, parsed to HTML by Contentlayer.\"})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,c.jsx)(e,{...t,children:(0,c.jsx)(p,{...t})}):p(t)}return j(y);})();\n;return Component;"
+        },
+        "_id": "docs/index.mdx",
+        "_raw": {
+          "sourceFilePath": "docs/index.mdx",
+          "sourceFileName": "index.mdx",
+          "sourceFileDir": "docs",
+          "contentType": "mdx",
+          "flattenedPath": "docs"
+        },
+        "type": "Doc",
+        "slug": "/docs",
+        "slugAsParams": ""
+      },
+      "documentHash": "1726946307565",
+      "hasWarnings": false,
+      "documentTypeName": "Doc"
+    }
+  }
+}
